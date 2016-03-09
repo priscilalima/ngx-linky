@@ -1,2 +1,2 @@
 # angular2-linky
-Linky pipe for angular2
+Angular2 pipe to find links in text input and turn them into html links
