@@ -1,0 +1,33 @@
+{
+  "name": "angular2-linky",
+  "version": "1.0.0",
+  "description": "Pipe to find links in text input and turn them into html links",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dzonatan/angular2-linky.git"
+  },
+  "keywords": [
+    "angular2",
+    "linky"
+  ],
+  "author": "Rokas Brazdzionis <rokas.brazdzionis@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dzonatan/angular2-linky/issues"
+  },
+  "homepage": "https://github.com/dzonatan/angular2-linky#readme",
+  "dependencies": {
+    "angular2": "^2.0.0-beta.8"
+  },
+  "devDependencies": {
+    "es6-promise": "^3.1.2",
+    "es6-shim": "^0.33.0",
+    "reflect-metadata": "0.1.2",
+    "rxjs": "^5.0.0-beta.2",
+    "zone.js": "^0.5.2"
+  }
+}
