@@ -4,7 +4,8 @@
   "description": "Pipe to find links in text input and turn them into html links",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "tsc": "./node_modules/.bin/tsc",
+    "postinstall": "typings install"
   },
   "repository": {
     "type": "git",
@@ -28,6 +29,7 @@
     "es6-shim": "^0.33.0",
     "reflect-metadata": "0.1.2",
     "rxjs": "^5.0.0-beta.2",
+    "typescript": "^1.8.7",
     "zone.js": "^0.5.2"
   }
 }
