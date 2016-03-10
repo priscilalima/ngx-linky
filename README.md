@@ -14,9 +14,13 @@ Via bower:
 `bower install --save angular2-linky`
 
 ## Usage
-Just add the "linky" pipe:
+Use **linky** pipe with **[outerHTML]** binding to get HTML correctly rendered:
 
-`{{yourTextVar | linky}}`
+`<span [outerHTML]="yourText | linky"></span>`
+
+If you can pass any [autolinker option](https://github.com/gregjacobs/Autolinker.js#options) to a second arugment. For ex.:
+
+`<span [outerHTML]="myText | linky:{newWindow: false}"></span>`
 
 ## License
 MIT
