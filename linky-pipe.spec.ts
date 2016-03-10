@@ -1,3 +1,5 @@
+import 'es6-shim';
+import 'reflect-metadata';
 import {LinkyPipe} from './linky-pipe';
 
 describe('LinkyPipe', () => {

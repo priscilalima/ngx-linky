@@ -1,5 +1,3 @@
-import 'es6-shim';
-import 'reflect-metadata';
 import {Pipe, PipeTransform} from 'angular2/core';
 import * as Autolinker from 'autolinker';
 

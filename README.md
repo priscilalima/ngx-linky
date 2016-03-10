@@ -14,7 +14,9 @@ Via bower:
 `bower install --save angular2-linky`
 
 ## Usage
-To be specified...
+Just add the "linky" pipe:
+
+`{{yourTextVar | linky}}`
 
 ## License
 MIT
