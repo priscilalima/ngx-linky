@@ -5,12 +5,13 @@
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "removeComments": true,
-    "declaration": true,
-    "outDir": "dist"
+    "sourceMap": true,
+    "declaration": true
   },
   "files": [
     "typings/main.d.ts",
     "linky-pipe.ts",
-    "linky-pipe.spec.ts"
+    "linky-pipe.spec.ts",
+    "index.ts"
   ]
 }

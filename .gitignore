@@ -1,6 +1,13 @@
 node_modules/
 typings/
-dist/
-src/**/*.js
-src/**/*.map
 npm-debug.log
+
+linky-pipe.js
+linky-pipe.js.map
+linky-pipe.d.ts
+index.js
+index.js.map
+index.d.ts
+*.spec.js
+*.spec.js.map
+*.spec.d.ts

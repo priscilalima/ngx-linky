@@ -1,0 +1,6 @@
+typings/
+node_modules/
+.travis.yml
+.karma.conf.js
+tsconfig.json
+bower.json

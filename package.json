@@ -2,12 +2,14 @@
   "name": "angular2-linky",
   "version": "1.0.2",
   "description": "Pipe to find links in text input and turn them into html links",
-  "main": "linky-pipe.ts",
+  "main": "index.js",
+  "typings": "./index.d.ts",
   "scripts": {
     "pretest": "npm run build",
     "test": "./node_modules/.bin/karma start",
     "build": "rm -rf dist && ./node_modules/.bin/tsc",
-    "typings": "./node_modules/.bin/typings install"
+    "typings": "./node_modules/.bin/typings install",
+    "prepublish": "npm run typings && npm run build"
   },
   "repository": {
     "type": "git",
