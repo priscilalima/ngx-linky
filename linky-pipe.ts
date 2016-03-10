@@ -1,10 +1,12 @@
 import 'es6-shim';
 import 'reflect-metadata';
 import {Pipe, PipeTransform} from 'angular2/core';
+import * as Autolinker from 'autolinker';
 
 @Pipe({name: 'linky'})
 export class LinkyPipe implements PipeTransform {
-  transform(value:string): string {
-    return value;
+  transform(value:string, args?: any[]): string {
+    let options = args !== undefined ? args[0] : null;
+    return Autolinker.link(value, options);
   }
 }

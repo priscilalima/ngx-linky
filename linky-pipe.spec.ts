@@ -1,8 +1,20 @@
 import {LinkyPipe} from './linky-pipe';
 
 describe('LinkyPipe', () => {
-  it('should have dummy test', () => {
-      const pipe = new LinkyPipe();
-      expect(pipe.transform('test')).toBe('test');
+  let pipe: LinkyPipe;
+  beforeAll(() => {
+    pipe = new LinkyPipe();
+  });
+
+  it('should linkify the web urls', () => {
+    var result = pipe.transform('google.com can search trough www.ebay.com and http://www.amazon.com');
+
+    expect(result).toBe('<a href="http://google.com" target="_blank">google.com</a> can search trough <a href="http://www.ebay.com" target="_blank">ebay.com</a> and <a href="http://www.amazon.com" target="_blank">amazon.com</a>');
+  });
+
+  it('should correctly accept args', () => {
+    var result = pipe.transform('google.com should be opened in the same window', [{ newWindow: false }]);
+
+    expect(result).toBe('<a href="http://google.com">google.com</a> should be opened in the same window');
   });
 });
