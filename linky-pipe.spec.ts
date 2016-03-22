@@ -11,7 +11,7 @@ describe('LinkyPipe', () => {
   it('should linkify the web urls', () => {
     var result = pipe.transform('google.com can search trough www.ebay.com and http://www.amazon.com');
 
-    expect(result).toBe('<a href="http://google.com" target="_blank">google.com</a> can search trough <a href="http://www.ebay.com" target="_blank">ebay.com</a> and <a href="http://www.amazon.com" target="_blank">amazon.com</a>');
+    expect(result).toBe('<a href="http://google.com" target="_blank" rel="noopener noreferrer">google.com</a> can search trough <a href="http://www.ebay.com" target="_blank" rel="noopener noreferrer">ebay.com</a> and <a href="http://www.amazon.com" target="_blank" rel="noopener noreferrer">amazon.com</a>');
   });
 
   it('should correctly accept args', () => {
