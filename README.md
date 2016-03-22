@@ -8,11 +8,7 @@ This is just a wrapper for [Autolinker.js](https://github.com/gregjacobs/Autolin
 
 
 ## Installation
-Via npm:
 `npm install --save angular2-linky`
-
-Via bower:
-`bower install --save angular2-linky`
 
 ## Usage
 Use **linky** pipe with **[innerHTML]** (or outerHTML, depends on you) binding to get HTML correctly rendered:
