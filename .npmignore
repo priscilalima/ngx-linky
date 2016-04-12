@@ -4,3 +4,9 @@ node_modules/
 .karma.conf.js
 tsconfig.json
 bower.json
+
+index.ts
+linky-pipe.ts
+linky-pipe.spec.ts
+linky-pipe.spec.js
+linky-pipe.spec.d.ts
