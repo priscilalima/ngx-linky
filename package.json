@@ -1,6 +1,6 @@
 {
   "name": "angular2-linky",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Pipe to find links in text input and turn them into html links",
   "main": "index.js",
   "typings": "./index.d.ts",
@@ -29,7 +29,7 @@
     "autolinker": "^0.x"
   },
   "devDependencies": {
-    "angular2": "2.0.0-beta.14",
+    "@angular/core": "2.0.0-rc.1",
     "autolinker": "0.26.0",
     "es6-promise": "^3.1.2",
     "es6-shim": "^0.35.0",
