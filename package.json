@@ -30,7 +30,7 @@
   },
   "devDependencies": {
     "@angular/core": "2.0.0-rc.1",
-    "autolinker": "0.26.0",
+    "autolinker": "0.27.0",
     "es6-promise": "^3.1.2",
     "es6-shim": "^0.35.0",
     "jasmine-core": "^2.4.1",
