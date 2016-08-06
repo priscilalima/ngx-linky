@@ -1,6 +1,6 @@
 import 'es6-shim';
 import 'reflect-metadata';
-import {LinkyPipe} from './linky-pipe';
+import { LinkyPipe } from './linky-pipe';
 
 describe('LinkyPipe', () => {
   let pipe: LinkyPipe;
@@ -15,7 +15,7 @@ describe('LinkyPipe', () => {
   });
 
   it('should correctly accept args', () => {
-    var result = pipe.transform('google.com should be opened in the same window', [{ newWindow: false }]);
+    var result = pipe.transform('google.com should be opened in the same window', { newWindow: false });
 
     expect(result).toBe('<a href="http://google.com">google.com</a> should be opened in the same window');
   });

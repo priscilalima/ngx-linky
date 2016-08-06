@@ -8,8 +8,7 @@
     "pretest": "npm run build",
     "test": "./node_modules/.bin/karma start",
     "build": "./node_modules/.bin/tsc",
-    "typings": "./node_modules/.bin/typings install",
-    "prepublish": "npm run typings && npm run build"
+    "prepublish": "npm run build"
   },
   "repository": {
     "type": "git",
@@ -29,25 +28,26 @@
     "autolinker": "^0.x"
   },
   "devDependencies": {
-    "@angular/core": "2.0.0-rc.1",
+    "@angular/core": "^2.0.0-rc.4",
+    "@types/autolinker": "^0.24.27",
+    "@types/es6-shim": "0.0.29",
+    "@types/jasmine": "^2.2.31",
     "autolinker": "0.27.0",
-    "es6-promise": "^3.1.2",
-    "es6-shim": "^0.35.0",
+    "es6-shim": "^0.35.1",
     "jasmine-core": "^2.4.1",
-    "karma": "^0.13.22",
-    "karma-jasmine": "^0.3.7",
-    "karma-phantomjs-launcher": "^1.0.0",
+    "karma": "^1.1.2",
+    "karma-jasmine": "^1.0.2",
+    "karma-phantomjs-launcher": "^1.0.1",
     "karma-sourcemap-loader": "^0.3.7",
-    "karma-webpack": "^1.7.0",
     "karma-spec-reporter": "^0.0.24",
-    "phantomjs-prebuilt": "^2.1.5",
+    "karma-webpack": "^1.7.0",
+    "phantomjs-prebuilt": "^2.1.10",
     "reflect-metadata": "0.1.2",
     "rxjs": "5.0.0-beta.6",
-    "ts-loader": "0.8.1",
-    "systemjs": "^0.19.24",
-    "typings": "^0.7.7",
-    "typescript": "^1.8.7",
-    "webpack": "^1.12.13",
-    "zone.js": "^0.6.10"
+    "systemjs": "^0.19.36",
+    "ts-loader": "0.8.2",
+    "typescript": "^2.0.0",
+    "webpack": "^1.13.1",
+    "zone.js": "^0.6.12"
   }
 }

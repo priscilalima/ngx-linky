@@ -9,7 +9,6 @@
     "declaration": true
   },
   "files": [
-    "typings/main.d.ts",
     "linky-pipe.ts",
     "linky-pipe.spec.ts",
     "index.ts"
