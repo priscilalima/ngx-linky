@@ -1,9 +1,11 @@
 import 'es6-shim';
 import 'reflect-metadata';
+
 import { LinkyPipe } from './linky-pipe';
 
 describe('LinkyPipe', () => {
   let pipe: LinkyPipe;
+
   beforeAll(() => {
     pipe = new LinkyPipe();
   });
