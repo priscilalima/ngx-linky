@@ -10,7 +10,20 @@ This is just a wrapper for [Autolinker.js](https://github.com/gregjacobs/Autolin
 ## Installation
 `npm install --save angular2-linky`
 
+Import `LinkyModule` or manually declare `LinkyPipe` in your app module.
+```ts
+import { LinkyModule } from 'angular2-linky';
+
+@NgModule({
+  imports: [
+    LinkyModule
+  ]
+})
+class YourAppModule {}
+```
+
 ## Usage
+
 Use **linky** pipe with **[innerHTML]** (or outerHTML, depends on you) binding to get HTML correctly rendered:
 
 `<span [innerHTML]="yourText | linky"></span>`
