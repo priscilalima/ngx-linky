@@ -1,6 +1,6 @@
 {
   "name": "angular2-linky",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "Pipe to find links in text input and turn them into html links",
   "main": "index.js",
   "typings": "./index.d.ts",
