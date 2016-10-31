@@ -7,6 +7,8 @@
 
 This is just a wrapper for [Autolinker.js](https://github.com/gregjacobs/Autolinker.js) so all issues and feature requests related to **autolinker** should go to their [issues](https://github.com/gregjacobs/Autolinker.js/issues)!
 
+**AoT ready.**
+
 
 ## Installation
 `npm install --save angular2-linky`

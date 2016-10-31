@@ -1,13 +1,10 @@
-node_modules/
-typings/
-npm-debug.log
+/node_modules/
+/typings/
+/compiled/
 
-linky-pipe.js
-linky-pipe.js.map
-linky-pipe.d.ts
-index.js
-index.js.map
-index.d.ts
-*.spec.js
-*.spec.js.map
-*.spec.d.ts
+*.js
+*.js.map
+*.d.ts
+*.metadata.json
+
+npm-debug.log

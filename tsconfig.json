@@ -8,6 +8,9 @@
     "sourceMap": true,
     "declaration": true
   },
+  "angularCompilerOptions": {
+    "genDir": "compiled"
+  },
   "files": [
     "linky-pipe.ts",
     "linky-pipe.spec.ts",
