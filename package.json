@@ -1,7 +1,7 @@
 {
-  "name": "angular2-linky",
+  "name": "angular-linky",
   "version": "1.2.2",
-  "description": "Pipe to find links in text input and turn them into html links",
+  "description": "Angular pipe to find links in text input and turn them into html links",
   "main": "index.js",
   "typings": "./index.d.ts",
   "scripts": {
@@ -12,18 +12,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dzonatan/angular2-linky.git"
+    "url": "git+https://github.com/dzonatan/angular-linky.git"
   },
   "keywords": [
-    "angular2",
+    "angular",
     "linky"
   ],
   "author": "Rokas Brazdzionis <rokas.brazdzionis@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/dzonatan/angular2-linky/issues"
+    "url": "https://github.com/dzonatan/angular-linky/issues"
   },
-  "homepage": "https://github.com/dzonatan/angular2-linky#readme",
+  "homepage": "https://github.com/dzonatan/angular-linky#readme",
   "dependencies": {
     "@types/autolinker": "^0.24.28",
     "autolinker": "^1.1.0"
