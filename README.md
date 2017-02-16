@@ -1,9 +1,9 @@
 # angular2-linky
-[![Build Status](https://travis-ci.org/dzonatan/angular2-linky.svg?branch=master)](https://travis-ci.org/dzonatan/angular2-linky)
-[![Dependency Status](https://gemnasium.com/dzonatan/angular2-linky.svg)](https://gemnasium.com/dzonatan/angular2-linky)
-[![npm version](https://badge.fury.io/js/angular2-linky.svg)](https://badge.fury.io/js/angular2-linky)
+[![Build Status](https://travis-ci.org/dzonatan/angular-linky.svg?branch=master)](https://travis-ci.org/dzonatan/angular-linky)
+[![Dependency Status](https://gemnasium.com/dzonatan/angular-linky.svg)](https://gemnasium.com/dzonatan/angular-linky)
+[![npm version](https://badge.fury.io/js/angular-linky.svg)](https://badge.fury.io/js/angular-linky)
 
-**Angular2** pipe to find links in text input and turn them into html links. It was called the same "linky" in **ngSanitize** module of **Angular1**. Since **Angular2** does not have such pipe built in therefore this repo was created.
+**Angular** pipe to find links in text input and turn them into html links. It was called the same "linky" in **ngSanitize** module of **AngularJs (first)**. Since **Angular** does not have such pipe built in therefore this repo was created.
 
 This is just a wrapper for [Autolinker.js](https://github.com/gregjacobs/Autolinker.js) so all issues and feature requests related to **autolinker** should go to their [issues](https://github.com/gregjacobs/Autolinker.js/issues)!
 
@@ -11,11 +11,11 @@ This is just a wrapper for [Autolinker.js](https://github.com/gregjacobs/Autolin
 
 
 ## Installation
-`npm install --save angular2-linky`
+`npm install --save angular-linky`
 
 Import `LinkyModule` or manually declare `LinkyPipe` in your app module.
 ```ts
-import { LinkyModule } from 'angular2-linky';
+import { LinkyModule } from 'angular-linky';
 
 @NgModule({
   imports: [
