@@ -1,6 +1,5 @@
 # angular-linky
 [![Build Status](https://travis-ci.org/dzonatan/angular-linky.svg?branch=master)](https://travis-ci.org/dzonatan/angular-linky)
-[![Dependency Status](https://gemnasium.com/dzonatan/angular-linky.svg)](https://gemnasium.com/dzonatan/angular-linky)
 [![npm version](https://badge.fury.io/js/angular-linky.svg)](https://badge.fury.io/js/angular-linky)
 
 **Angular** pipe to find links in text input and turn them into html links. It was called the same "linky" in **ngSanitize** module of **AngularJs (first)**. Since **Angular** does not have such pipe built in therefore this repo was created.
