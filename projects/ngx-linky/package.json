@@ -1,0 +1,26 @@
+{
+  "name": "ngx-linky",
+  "version": "2.0.0",
+  "description": "Angular pipe to find links in text input and turn them into html links",
+  "keywords": [
+    "angular",
+    "linky",
+    "ngx",
+    "pipe"
+  ],
+  "author": "Rokas Brazdzionis <rokas.brazdzionis@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dzonatan/ngx-linky/issues"
+  },
+  "homepage": "https://github.com/dzonatan/ngx-linky#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dzonatan/ngx-linky.git"
+  },
+  "peerDependencies": {
+    "@angular/common": "^4.0.0 || ^5.0.0 || ^6.0.0-rc.0 || ^6.0.0",
+    "@angular/core": "^4.0.0 || ^5.0.0 || ^6.0.0-rc.0 || ^6.0.0",
+    "autolinker": "^1.1.0"
+  }
+}

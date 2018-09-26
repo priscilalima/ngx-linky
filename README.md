@@ -1,20 +1,20 @@
-# angular-linky
-[![Build Status](https://travis-ci.org/dzonatan/angular-linky.svg?branch=master)](https://travis-ci.org/dzonatan/angular-linky)
-[![npm version](https://badge.fury.io/js/angular-linky.svg)](https://badge.fury.io/js/angular-linky)
+# ngx-linky
+
+[![Build Status](https://travis-ci.org/dzonatan/ngx-linky.svg?branch=master)](https://travis-ci.org/dzonatan/ngx-linky)
+[![npm version](https://badge.fury.io/js/ngx-linky.svg)](https://badge.fury.io/js/ngx-linky)
 
 **Angular** pipe to find links in text input and turn them into html links. It was called the same "linky" in **ngSanitize** module of **AngularJs (first)**. Since **Angular** does not have such pipe built in therefore this repo was created.
 
 This is just a wrapper for [Autolinker.js](https://github.com/gregjacobs/Autolinker.js) so all issues and feature requests related to **autolinker** should go to their [issues](https://github.com/gregjacobs/Autolinker.js/issues)!
 
-**AoT ready.**
-
 
 ## Installation
-`npm install --save angular-linky`
+
+`npm install --save ngx-linky`
 
 Import `LinkyModule` or manually declare `LinkyPipe` in your app module.
 ```ts
-import { LinkyModule } from 'angular-linky';
+import { LinkyModule } from 'ngx-linky';
 
 @NgModule({
   imports: [
@@ -35,4 +35,5 @@ You can pass any [autolinker option](https://github.com/gregjacobs/Autolinker.js
 `<span [innerHTML]="myText | linky:{newWindow: false}"></span>`
 
 ## License
+
 MIT
